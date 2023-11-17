@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(./bg.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    /* border: 1px solid green; */
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.body{
+    /* border: 1px solid red; */
+    /* width: 100vw; */
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.basic{
+    margin-left: 12.5vw;
+    /* border: 1px solid yellow; */
+    background: white;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: -10px 2px 26px -3px rgba(112,106,106,0.75);
+}
+
+.Professional{
+    /* border: 1px solid blueviolet; */
+    background: blueviolet;
+    color: white;
+    height: 70vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: -3px -4px 27px 4px rgba(112,106,106,0.75);
+}
+
+.Master{
+    /* border: 1px solid pink; */
+    background: white;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 10px 2px 26px -3px rgba(112,106,106,0.75);
+}
+
+h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    align-self: center;
+    width: 20vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+button{
+    width: 300px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: blueviolet;
+}
+
+.color{
+    background-color: white;
+}
+
+/* media start */
+
+/* media 320px to 480px start */
+@media (min-width:320px) and (max-width:480px){
+    body{
+        background-image: url(./bg.avif);
+        background-repeat: no-repeat;
+        background-size: 400vh;
+    }
+    
+    .container{
+        /* border: 1px solid green; */
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .body{
+        /* border: 1px solid red; */
+        /* width: 100vw; */
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .basic{
+        margin-left:0vw;
+        background: white;
+        height: 60vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+    }
+    
+    .Professional{
+        background: blueviolet;
+        height: 60vh;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+        margin-top:15px ;
+
+    }
+    
+    .Master{
+        /* border: 1px solid pink; */
+        background: white;
+        height: 60vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+    }
+    
+    h5{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        align-self: center;
+        width: 50vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    button{
+        width: 250px;
+        /* height: 20px; */
+        margin-left: 20px;
+        background-color: blueviolet;
+    }
+    .white_button{
+        width: 200px;
+        /* height: 20px; */
+        margin-left: 30px;
+        background-color: white;
+    }
+    
+    .color{
+        background-color: white;
+    }
+}
+/* media 320px to 480px end */
+
+/* media 481px to 768px start */
+
+@media (min-width:481px) and (max-width:768px){
+    body{
+        background-image: url(./bg.avif);
+        background-repeat: no-repeat;
+        background-size: 400vh;
+    }
+    
+    .container{
+        /* border: 1px solid green; */
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .body{
+        /* border: 1px solid red; */
+        /* width: 100vw; */
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .basic{
+        margin-left:0vw;
+        background: white;
+        height: 60vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+    }
+    
+    .Professional{
+        background: blueviolet;
+        height: 60vh;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+        margin-top:15px ;
+
+    }
+    
+    .Master{
+        /* border: 1px solid pink; */
+        background: white;
+        height: 60vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin-bottom:15px ;
+    }
+    
+    h5{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        align-self: center;
+        width: 50vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    button{
+        width: 300px;
+        /* height: 20px; */
+        margin-left: 25vw;
+        background-color: blueviolet;
+    }
+    .white_button{
+        width: 270px;
+        /* height: 20px; */
+        margin-left: 20vw;
+        background-color: white;
+    }
+    
+    .color{
+        background-color: white;
+    }
+}
+
+/* media 481px to 768px end */
+
+/* media 769px to 1024px start */
+@media (min-width:769px) and (max-width:1024px){
+    body{
+        background-image: url(./bg.avif);
+        background-repeat: no-repeat;
+        background-size: 200vh;
+    }
+    
+    .container{
+        /* border: 1px solid green; */
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .body{
+        /* border: 1px solid red; */
+        /* width: 100vw; */
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .basic{
+        margin-left: 12.5vw;
+        /* border: 1px solid yellow; */
+        background: white;
+        height: 60vh;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: -10px 2px 26px -3px rgba(112,106,106,0.75);
+    }
+    
+    .Professional{
+        /* border: 1px solid blueviolet; */
+        background: blueviolet;
+        height: 70vh;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: -3px -4px 27px 4px rgba(112,106,106,0.75);
+    }
+    
+    .Master{
+        /* border: 1px solid pink; */
+        background: white;
+        height: 60vh;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 10px 2px 26px -3px rgba(112,106,106,0.75);
+    }
+    
+    h5{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        align-self: center;
+        width: 20vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    button{
+        width: 150px;
+        height: 35px;
+        margin-left: 30px;
+        background-color: blueviolet;
+    }
+    
+    .color{
+        background-color: white;
+    }
+    
+}
+
+
+/* media 769px to 1024px end */
+
+
+/* media end */
